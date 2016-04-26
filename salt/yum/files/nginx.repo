@@ -1,0 +1,7 @@
+# Enable Nginx's package repository
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/{{ os_type }}/{{ os_release }}/$basearch/
+gpgcheck=1
+enabled=1
+gpgkey=http://nginx.org/keys/nginx_signing.key
