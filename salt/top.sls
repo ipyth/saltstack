@@ -1,4 +1,5 @@
 base: 
-  'node': 
+  '*': 
     - yum
     - nginx
+    - zabbix
